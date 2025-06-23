@@ -13,9 +13,6 @@ phases:
   post_build:
     commands:
       - echo Configuring NGINX 
-      - systemctl restart nginx
-     
-
 artifacts:
   files:
     - /var/www/html/index.html
